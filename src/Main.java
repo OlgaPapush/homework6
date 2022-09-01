@@ -38,5 +38,25 @@ public class Main {
         System.out.println ( arr3 [0] + ",");
         System.out.println ( arr3 [1] + ",");
         System.out.println ( arr3 [2] + ",");
+
+        // 3 задание
+
+        int [] arr1 = new int [3];
+        arr1 [0] = 1;
+        arr1 [1] = 2;
+        arr1 [2] = 3;
+        System.out.println ( arr1 [2] + ",");
+        System.out.println ( arr1 [1] + ",");
+        System.out.println ( arr1 [0] + ",");
+
+        double[] arr2 = { 1.57,7.654,9.986};
+        System.out.println ( arr2 [2] + ",");
+        System.out.println ( arr2 [1] + ",");
+        System.out.println ( arr2 [0] + ",");
+
+        String[] arr3 = {"Массив", "номер", "три"};
+        System.out.println ( arr3 [2] + ",");
+        System.out.println ( arr3 [1] + ",");
+        System.out.println ( arr3 [1] + ",");
     }
 }
