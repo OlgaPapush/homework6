@@ -58,5 +58,19 @@ public class Main {
         System.out.println ( arr3 [2] + ",");
         System.out.println ( arr3 [1] + ",");
         System.out.println ( arr3 [1] + ",");
+
+        // 4 задание
+
+        int[] array1 = new int [3];
+        array1 [0] = 1;
+        array1 [1] = 2;
+        array1 [2] = 3;
+        for (int i = 0; i < array1. length; i++){
+            if (array1[i]%2!=0)
+                array1[i] = array1[i]+1;
+        }
+        for (int i = 0; i < array1.length; i++) {
+            System.out.println (array1[i]);
+        }
     }
 }
